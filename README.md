@@ -4,7 +4,7 @@ Due to harden my Self-Hosted network I tried different tools like 'NPM - Nginx P
 Obviously I also use Cloudflare as secure DNS for my domain. During the test phases I, of course as intended, created IP access rules automatically with above mentioned tools.
 
 I wanted to delete all IP access rules to start new and fresh. The downside of this is that 'Fail2Ban' and 'CrowdSec' are written to reset/delete only their own pushed rules.
-I struggled to get any information around to solve this for me so created this script to use Cloudflare API.
+I struggled to get any informations by searching the net to solve this for me so I created this script to use Cloudflare API.
 
 # What it does
 
@@ -12,6 +12,8 @@ I struggled to get any information around to solve this for me so created this s
  The values in the curl command are maxed out values which means you're only allowed the delete 1000 entries per run.
 
 # Prerequisites
+
+- curl and jq
 
 - Your Mail used with Cloudflare:
   Like 'foo@bar.net'. (Without quotes)
