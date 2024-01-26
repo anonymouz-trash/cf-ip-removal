@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Put your credentials here, provied are example inputs
+# Put your credentials here, provied values are examples
 cf_zone_id=example4ptwdqalnnygz16m121ki8gji
 cf_mail=foo@bar.net
 cf_global_api=example4ptwdqalnnygz16m121ki8gji
