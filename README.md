@@ -22,10 +22,10 @@ I struggled to get any information around to solve this for me so created this s
 - Zone ID
   When you're editing your domain the URL in your browsers address bar looks like:
 
-  https://dash.cloudflare.com/# ZONE-ID #/# DOMAIN #
+  https://dash.cloudflare.com/#ZONE-ID#/#DOMAIN#
 
-  - # ZONE-ID # = 32 chars string with numbers and lower-case letter from a-z
-  - # DOMAIN #  = like, e.g. example.com
+  - #ZONE-ID# = 32 chars string with numbers and lower-case letter from a-z
+  - #DOMAIN#  = like, e.g. example.com
 
 # Usage
 
