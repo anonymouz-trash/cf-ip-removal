@@ -9,6 +9,7 @@ I struggled to get any information around to solve this for me so created this s
 # What it does
 
  The script asks for the list of IPs from Cloudflare via API and stores them in an array. It then queries each element in this array and deletes it.
+ The values in the curl command are maxed out values which means you're only allowed the delete 1000 entries per run.
 
 # Prerequisites
 
