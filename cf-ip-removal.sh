@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Put your credentials here, provied are example inputs
-cf_zone_id=7jlagyt4ptwdqalnnygz16m121ki8gji
+cf_zone_id=example4ptwdqalnnygz16m121ki8gji
 cf_mail=foo@bar.net
-cf_global_api=7jlagyt4ptwdqalnnygz16m121ki8gji
+cf_global_api=example4ptwdqalnnygz16m121ki8gji
 
 # Start of script
 cf_ip_list=$(curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/${cf_zone_id}/firewall/access_rules/rules?page=1&per_page=1000" -H "X-Auth-Email: ${cf_mail}" -H "X-Auth-Key: ${cf_global_api}" -H "Content-Type: application/json" | jq -r '.result[] | .id')
